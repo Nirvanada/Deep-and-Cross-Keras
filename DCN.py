@@ -131,7 +131,7 @@ def preprocessing(data):
 
 if __name__ == "__main__":
     # data download from https://www.kaggle.com/uciml/forest-cover-type-dataset/data
-    data = pd.read_csv("/Users/hedgepig/Downloads/covtype.csv")
+    data = pd.read_csv("./data/covtype.csv")
     X, y, inp_layer, inp_embed = feature_generate(data)
     
     #random split train and test by 9:1
